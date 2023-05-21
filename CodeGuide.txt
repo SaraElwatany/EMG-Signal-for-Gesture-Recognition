@@ -1,0 +1,21 @@
+steps for running the code
+1) install all needed packages
+pandas 
+numpy 
+os
+scipy
+sklearn
+matplotlib
+seaborn
+
+2) There is a notebook for every step that you need to run in the following order:
+
+a- app.ipynb: where it iterates over each txt file in that directory & convert to csv file, then
+ Merge all csv files to one csv file & save in (csv files/merged_files.csv) file 
+
+b- preprocessing.ipynb :( applies some filters on the raw data) *** this file reduces the accuracy so we chose to ignore it while training our model***
+
+c- features.ipynb  : feature extraction and selection 
+
+d-models.ipynb : splitting the data, training and testing of the model, then evaluating each model.
+		
