@@ -2,9 +2,12 @@
 
 # EMG-Signal-for-Gesture-Recognition ✋
 *Machine learning based  EMG Signal analysis for Gesture Recognition* 
-### <a href='https://drive.google.com/file/d/1D-TNMB92HCPmb8BEV5W2UBFqL8hZzKN6/view?usp=share_link'>Paper link</a>
 
 <div align='center'>
+  
+|<a href='https://drive.google.com/file/d/1D-TNMB92HCPmb8BEV5W2UBFqL8hZzKN6/view?usp=share_link'>Paper link</a>|<a href='https://archive.ics.uci.edu/ml/datasets/EMG+data+for+gestures'>Dataset link</a>|
+|---|---|
+
 <img src ="https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/Handgesture.png">
 
 </div> 
