@@ -3,7 +3,11 @@
 # EMG-Signal-for-Gesture-Recognition ✋
 *Machine learning based  EMG Signal analysis for Gesture Recognition* 
 ### <a href='https://drive.google.com/file/d/1D-TNMB92HCPmb8BEV5W2UBFqL8hZzKN6/view?usp=share_link'>Paper link</a>
-<img src ='https://github.com/MahmoudRabea13/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/Handgesture.png'>
+
+<div align='center'>
+<img src ="https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/Handgesture.png">
+
+</div> 
 
 ________________________________________________
 
@@ -33,7 +37,7 @@ ________________________________________________
 
 <div id='code'>
   
-### 2) <a href='https://github.com/MahmoudRabea13/EMG-Signal-for-Gesture-Recognition/blob/main/CodeGuide.txt'>Code explaination</a>
+### 2) <a href='https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/CodeGuide.txt'>Code explaination</a>
   *<p align='center'>Requirements</p>*
 ```
 sklearn == 1.2.2
@@ -47,7 +51,7 @@ preprocess the EMG raw signal data by applaying Notch filter then Band pass filt
 
 |`Raw EMG signal` | `Notch filtered signal` | `Band pass filtered signal` |
 |---|---|----|
-|<img src ='https://github.com/MahmoudRabea13/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/rawsignal.png'>|<img src ='https://github.com/MahmoudRabea13/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/notch.png'>|<img src ='https://github.com/MahmoudRabea13/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/bandpass.png'>|
+|<img src ='https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/rawsignal.png'>|<img src ='https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/notch.png'>|<img src ='https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/bandpass.png'>|
   
 #### B) Feature extraction & selection:
 After we preprocess the EMG signal , we now do feature extraction to extract the following 12 features from each of the 8 channels:
@@ -57,21 +61,24 @@ After we preprocess the EMG signal , we now do feature extraction to extract the
 
 |`features`|`after extraction`|
 |---|----|
-|<img src ='https://github.com/MahmoudRabea13/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/features.png'>|<img src ='https://github.com/MahmoudRabea13/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/featuresextraction.png'>|
+|<img src ='https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/features.png'>|<img src ='https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/featuresextraction.png'>|
 
 Then , we apply feature selection techniques *Kbest in our case*
 |`Feature selection`|`Feature scores`|
 |---|---|
-| <img src ='https://github.com/MahmoudRabea13/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/featuresselection.png'>| <img src ='https://github.com/MahmoudRabea13/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/featuresscores.png'> |
+| <img src ='https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/featuresselection.png'>| <img src ='https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/featuresscores.png'> |
 
 #### C) Classification:
 we used the following three classifiers to construct our model:
+<div align='center'>
+  
 |`classifier`|`code`|
 |-------|-------|
-|`Random forest`|<img src ='https://github.com/MahmoudRabea13/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/rf.png'>|
-|`SVM`|<img src ='https://github.com/MahmoudRabea13/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/svm.png'>|
-|`MLP neural network`|<img src ='https://github.com/MahmoudRabea13/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/mlp.png'>|
-  
+|`Random forest`|<img src ='https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/rf.png'>|
+|`SVM`|<img src ='https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/svm.png'>|
+|`MLP neural network`|<img src ='https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/mlp.png'>|
+</div>  
+
 </div>
 
 
@@ -79,13 +86,17 @@ we used the following three classifiers to construct our model:
   
 ### 3) Model evaluation
 *<p align='center'>Performance comparsion</p>*
-<img src ='https://github.com/MahmoudRabea13/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/comparsion.png'>  
+<img src ='https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/comparsion.png'>  
+
+<div align='center'>  
+  
 |`Classifier`|`Confusion Matrix`|
 |----|----|
-|`SVM`|<img src ='https://github.com/MahmoudRabea13/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/svmcm.png'>|
-|`RF`|<img src ='https://github.com/MahmoudRabea13/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/rfcm.png'>|
-|`MLP`|<img src ='https://github.com/MahmoudRabea13/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/mlpcm.png'>|
+|`SVM`|<img src ='https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/svmcm.png'>|
+|`RF`|<img src ='https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/rfcm.png'>|
+|`MLP`|<img src ='https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/mlpcm.png'>|
 
+</div>  
 </div>
 
 <div id='team'>
