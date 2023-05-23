@@ -36,6 +36,15 @@ ________________________________________________
 
 -Our main application is virtual rehabilitation by combining gesture recognition with VR technology. 
 ```
+<div align='center'>
+
+<img src ="https://github.com/SaraElwatany/EMG-Signal-for-Gesture-Recognition/blob/main/snaps/Poster.jpg">
+
+</div>
+
+</div> 
+
+
 </div>
 
 <div id='code'>
